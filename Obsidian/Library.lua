@@ -5650,6 +5650,7 @@ function Library:Notify(...)
 end
 
 function Library:CreateWindow(WindowInfo)
+    WindowInfo.Title = "Voidware - Cracked";
     WindowInfo = Library:Validate(WindowInfo, Templates.Window)
     local ViewportSize: Vector2 = workspace.CurrentCamera.ViewportSize
     if RunService:IsStudio() and ViewportSize.X <= 5 and ViewportSize.Y <= 5 then
