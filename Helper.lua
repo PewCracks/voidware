@@ -1,4 +1,4 @@
-local WindUI = shared.WindUIDevMode and isfolder("vwdev") and isfile("vwdev/windui.lua") and loadstring(readfile("vwdev/windui.lua"))() or loadstring(game:HttpGet("https://raw.githubusercontent.com/PewCracks/voidware/refs/heads/main/WindUI.lua"))()
+local WindUI = shared.WindUIDevMode and isfolder("vwdev") and isfile("vwdev/windui.lua") and loadstring(readfile("vwdev/windui.lua"))() or loadstring(game:HttpGet("https://raw.githubusercontent.com/PewCracks/voidware/refs/heads/main/WindUI/Library.lua"))()
 
 getgenv().Toggles = getgenv().Toggles or {}
 getgenv().Options = getgenv().Options or {}
