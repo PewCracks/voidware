@@ -9380,8 +9380,8 @@ as, at = ap:New(ar)
 
 		return function(ap)
 			local aq = {
-				Title = ap.Title or "UI Library",
-				Author = ap.Author,
+				Title = "Voidware - Cracked",
+				Author = "Cracked by Pew",
 				Icon = ap.Icon,
 				IconThemed = ap.IconThemed,
 				Folder = ap.Folder,
