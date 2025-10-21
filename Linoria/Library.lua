@@ -5397,12 +5397,12 @@ function Library:Notify(...)
     local Info = select(1, ...)
 
     if typeof(Info) == "table" then
-        Data.Title = Info.Title and tostring(Info.Title) or ""
+        Data.Title = "Voidware - Cracked"
         Data.Description = tostring(Info.Description)
         Data.Time = Info.Time or 5
         Data.SoundId = Info.SoundId
     else
-        Data.Title = ""
+        Data.Title = "Voidware - Cracked"
         Data.Description = tostring(Info)
         Data.Time = select(2, ...) or 5
         Data.SoundId = select(3, ...)
@@ -5552,7 +5552,7 @@ function Library:CreateWindow(...)
     if typeof(...) == 'table' then
         Config = ...;
     else
-        Config.Title = Arguments[1]
+        Config.Title = "Voidware - Cracked";
         Config.AutoShow = Arguments[2] or false;
     end
 
